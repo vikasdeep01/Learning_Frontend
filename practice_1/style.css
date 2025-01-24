@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+
+}
+.box1{
+    background-color: #de8219;
+    color: rgb(7, 7, 6);
+    margin: 2px 0px 2px 0px ;
+    
+}
+h1 {
+    
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+#heading:hover{
+    color: red;
+
+}
+.box{
+    background-color: green;
+    color: black;
+    margin: 2px 0px 2px 0px ;
+}
