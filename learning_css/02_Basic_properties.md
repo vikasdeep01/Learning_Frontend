@@ -14,7 +14,7 @@ border: some unit
 
 if ( box-sizing:border-box;)
 {
-    total height is : top margin + bottom margin + content height + padding top and bottom + border
+    total height is : content height + padding top and bottom + border
 }
 
 
@@ -41,7 +41,6 @@ letter-spacing: some units
 text-transform: uppercase,lowercase,capitalize;
 text-align: center,
 
-overflow: hidden ,
 text-overflow: clip,elipsis;
  
 
