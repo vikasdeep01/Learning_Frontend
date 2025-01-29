@@ -33,6 +33,7 @@ width : any unit
 font_family : to change the font;
 font-style: to change it into italic
 font-weight: making bold
+font-size:some units
 text-decoration: underline
 text-decoration-color:any-colour;
 text-decoration-style: dotted;   

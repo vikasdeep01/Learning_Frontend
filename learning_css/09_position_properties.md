@@ -32,9 +32,11 @@ right: units;
 z-index: whole number;
 
 positon: fixed;
+top:0;
 //NOTE -  it will be not move with scroll
 
 position: sticky;
+top:0;
 //NOTE -  it will be never go out from the frame
 
 

@@ -46,16 +46,17 @@ body{
     margin-top: 15px;
     height: 35px;
     width: 90px;
-    border-color: rgb(20, 197, 224);
-    background-color: rgb(23, 232, 255);
+    background-color: rgba(126, 175, 248, 0.642);
     color: blue;
+    border: none;
     border-radius: 19px;
-    text-align: center;
-    padding: 4px;
+    padding: 7px;
+
     
 }
-.main-card a{
-    text-decoration: none;
-    text-align: center;
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
