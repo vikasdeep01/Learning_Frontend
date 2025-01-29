@@ -42,7 +42,7 @@ text-transform: uppercase,lowercase,capitalize;
 text-align: center,
 
 overflow: hidden ,
-text-overflow: clip,elipsis
+text-overflow: clip,elipsis;
  
 
 
