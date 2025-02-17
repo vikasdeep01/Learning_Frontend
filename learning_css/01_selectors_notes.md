@@ -1,58 +1,86 @@
-Unit 1 : How to select any element to apply any the css properties.
-
-Uniersal Selector:
-
-*{
-    apply to all elements in website
-}
-
-Selecting the element by name:
-
-  div{
-
-    properties;
-  }
-
-Selecting by ID:
-
-    <div id="box">
-
-    </div>
 
 
-    #box{
+//ANCHOR - Uniersal Selector:
 
-    }
+                    *{
+                        apply to all elements in website
+                    }
 
-Selecting by class:
+//ANCHOR - Selecting the element by name:
 
-    <div class="box">
+                    div{
 
-    </div>
+                      properties;
+                    }
 
-
-    .box{
-
-    }
-
-Seleting Direct Child elements:
-
- <div class="box">
-          <p> i am a para inside a div </p>
-    </div>
+//ANCHOR - Selecting by ID:
 
 
-    div > p{
-             properties
-    }
 
-Seleting any child elements:
+                    #box{
 
- <div class="box">
-          <p> i am a para inside a div </p>
-    </div>
+                    }
+
+//ANCHOR - Selecting by class:
+
+                  
+                    .box{
+
+                    }
+
+//ANCHOR - Seleting Direct Child elements:
 
 
-    div p{
-             properties
-    }
+                div > p{
+                        properties
+                }
+
+//ANCHOR - Seleting any child elements:
+
+                    div p{
+                            properties
+                    }
+
+
+//NOTE - Advance selectors 
+
+
+
+                      .box:first-child{              //NOTE - where .box is first child of parent 
+
+                          property ;
+                      }
+
+//ANCHOR - Attribute selector 
+                      
+
+                      [box="1"]{
+
+
+                           properties ;
+
+                      }
+//ANCHOR - Selecting Nth child 
+
+                    .box:nth-child ( 1 to ..){
+
+                      properties ;
+                    }
+
+//LINK - Inserting content dynamically using css
+
+          .box::before{
+            
+               content:add content before the element
+          }
+
+
+          .box::after{
+  
+               content:add content after the element
+          }
+
+
+          input::placeholder{
+            properties:
+          }
