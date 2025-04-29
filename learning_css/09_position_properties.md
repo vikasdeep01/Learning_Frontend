@@ -19,7 +19,7 @@ child consider the parent as a positoined element and adust them relative to par
 
 position: relative;
 
-//REVIEW -  sets property according to properties 
+//REVIEW -  sets property according to need like top bottom z index
 
 
 //NOTE - Why to use :
