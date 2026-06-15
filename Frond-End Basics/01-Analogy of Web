@@ -1,0 +1,269 @@
+1. What is a Website?
+Definition
+
+A website is a collection of web pages that can be accessed through the Internet using a web browser.
+
+Examples
+Google
+Amazon
+Facebook
+Components of a Website
+Content (Text, Images, Videos)
+Structure (HTML)
+Design (CSS)
+Functionality (JavaScript)
+
+
+2. What is the Internet?
+Definition
+
+The Internet is a global network of interconnected computers that communicate with each other.
+
+Simple Analogy
+Computers = Houses
+IP Address = House Address
+Internet = Road Network
+Purpose
+
+Allows devices around the world to exchange information.
+
+3. What is the World Wide Web (WWW)?
+Definition
+
+The World Wide Web is a collection of web pages and resources available over the Internet.
+
+Internet vs Web
+Internet	Web
+Infrastructure	Service running on Internet
+Network of devices	Collection of websites
+Physical + Logical Network	Information system
+Example
+
+The Internet is like roads.
+
+The Web is like shops and buildings connected through those roads.
+
+4. Client-Server Architecture
+Client
+
+Device requesting information.
+
+Examples:
+
+Browser
+Mobile App
+Server
+
+Computer that stores and provides information.
+
+Working
+Client sends request
+Server receives request
+Server processes request
+Server sends response
+Browser → Request → Server
+Browser ← Response ← Server
+5. What is a Browser?
+Definition
+
+A browser is software used to access and display web pages.
+
+Examples
+Google Chrome
+Mozilla Firefox
+Microsoft Edge
+Responsibilities
+Send requests
+Receive responses
+Render HTML
+Apply CSS
+Execute JavaScript
+6. What Happens When You Open a Website?
+Example
+www.google.com
+Steps
+User enters URL
+Browser asks DNS for IP address
+DNS returns IP
+Browser sends HTTP request
+Server processes request
+Server sends HTML/CSS/JS files
+Browser renders page
+7. URL (Uniform Resource Locator)
+Definition
+
+Address used to locate a resource on the web.
+
+Example
+https://www.example.com/products
+Parts
+https://www.example.com/products
+│
+├── Protocol (https)
+├── Domain Name (www.example.com)
+└── Path (/products)
+8. Domain Name and IP Address
+Domain Name
+
+Human-readable address.
+
+Example:
+
+google.com
+IP Address
+
+Machine-readable address.
+
+Example:
+
+142.250.183.14
+Why Domain Names?
+
+Humans remember names easier than numbers.
+
+9. DNS (Domain Name System)
+Definition
+
+DNS translates domain names into IP addresses.
+
+Example
+google.com
+      ↓
+DNS
+      ↓
+142.250.xxx.xxx
+Analogy
+
+DNS = Phone Contact List
+
+You remember a name, not the phone number.
+
+10. HTTP and HTTPS
+HTTP
+
+HyperText Transfer Protocol
+
+Used for communication between browser and server.
+
+HTTPS
+
+Secure version of HTTP.
+
+Difference
+HTTP	HTTPS
+Not encrypted	Encrypted
+Less secure	More secure
+Port 80	Port 443
+11. Frontend vs Backend
+Frontend
+
+What users see and interact with.
+
+Technologies:
+
+HTML
+CSS
+JavaScript
+Backend
+
+Handles logic and data.
+
+Technologies:
+
+Python
+Java
+PHP
+Node.js
+Diagram
+Frontend
+   ↓
+Backend
+   ↓
+Database
+12. What is HTML?
+HTML = HyperText Markup Language
+
+Purpose:
+
+Creates structure of a web page.
+
+Example:
+
+<h1>Welcome</h1>
+<p>Hello Students</p>
+Analogy
+
+HTML = Skeleton of a Human Body
+
+13. What is CSS?
+CSS = Cascading Style Sheets
+
+Purpose:
+
+Controls appearance of web pages.
+
+Example:
+
+h1{
+    color:red;
+}
+Analogy
+
+CSS = Clothes and Appearance
+
+14. What is JavaScript?
+Purpose
+
+Adds interactivity to web pages.
+
+Examples:
+
+Button Click
+Form Validation
+Animations
+Dynamic Content
+Analogy
+
+JavaScript = Muscles and Brain
+
+15. Complete Web Development Stack
+HTML
+  ↓
+Structure
+
+CSS
+  ↓
+Design
+
+JavaScript
+  ↓
+Interactivity
+
+Backend
+  ↓
+Business Logic
+
+Database
+  ↓
+Data Storage
+Human Body Analogy
+Technology	Analogy
+HTML	Skeleton
+CSS	Appearance/Clothes
+JavaScript	Muscles & Brain
+Backend	Internal Organs
+Database	Memory
+Flow of First Lecture
+Internet
+WWW
+Client-Server
+Browser
+URL
+Domain & IP
+DNS
+HTTP/HTTPS
+Frontend vs Backend
+HTML Introduction
+CSS Introduction
+
+This sequence usually takes 30–40 minutes and gives students enough background before writing their first HTML page.
